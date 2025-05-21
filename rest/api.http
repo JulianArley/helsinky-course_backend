@@ -1,0 +1,14 @@
+### POST
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "Lisa Marta",
+    "number": "065-56506"
+}
+
+### DELETE
+DELETE http://localhost:3001/api/persons/5
+
+### GETALL
+GET http://localhost:3001/api/persons
