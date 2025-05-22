@@ -3,12 +3,15 @@ POST http://localhost:3001/api/persons
 Content-Type: application/json
 
 {
-    "name": "Lisa Marta",
+    "name": "Lisa Martaa",
     "number": "065-56506"
 }
 
 ### DELETE
-DELETE http://localhost:3001/api/persons/5
+DELETE http://localhost:3001/api/persons/682f3714a4737c71e9e7ca80
 
 ### GETALL
 GET http://localhost:3001/api/persons
+
+### GetById
+GET http://localhost:3001/api/persons/682e913767a6193bb0185eb7
