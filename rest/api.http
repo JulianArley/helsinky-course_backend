@@ -3,7 +3,7 @@ POST http://localhost:3001/api/persons
 Content-Type: application/json
 
 {
-    "name": "Lisa Martaa",
+    "name": "Li",
     "number": "065-56506"
 }
 
@@ -15,3 +15,12 @@ GET http://localhost:3001/api/persons
 
 ### GetById
 GET http://localhost:3001/api/persons/682e913767a6193bb0185eb7
+
+### PUT
+PUT http://localhost:3001/api/persons/Halsey
+Content-Type: application/json
+
+{
+    "name": "no",
+    "number": "1"
+}
