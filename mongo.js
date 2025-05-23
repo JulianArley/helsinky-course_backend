@@ -24,9 +24,9 @@ if(process.argv.length === 5){
     name: process.argv[3],
     number: process.argv[4]
   })
-    
+
   person.save().then(res => {
-    console.log('note saved')
+    console.log('note saved', res)
     mongoose.connection.close()
   })
 }else if(process.argv.length === 3){
